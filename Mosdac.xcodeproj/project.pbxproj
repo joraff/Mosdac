@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6334138156AA7B5002264CC /* Mosdac.icns in Resources */ = {isa = PBXBuildFile; fileRef = D6334137156AA7B5002264CC /* Mosdac.icns */; };
+		D636C57A15754CC70078B045 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C57915754CC70078B045 /* Base64.m */; };
+		D6684A4B1565980A00180B41 /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = D6684A4A1565980A00180B41 /* Department.m */; };
+		D6684A4F1565981700180B41 /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = D6684A4E1565981700180B41 /* Building.m */; };
+		D6684A521565982E00180B41 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = D6684A511565982E00180B41 /* Room.m */; };
+		D6862C39156588CB00D1ECA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6862C38156588CB00D1ECA6 /* Cocoa.framework */; };
+		D6862C43156588CB00D1ECA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6862C41156588CB00D1ECA6 /* InfoPlist.strings */; };
+		D6862C45156588CB00D1ECA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6862C44156588CB00D1ECA6 /* main.m */; };
+		D6862C49156588CB00D1ECA6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D6862C47156588CB00D1ECA6 /* Credits.rtf */; };
+		D6862C4C156588CB00D1ECA6 /* OSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6862C4B156588CB00D1ECA6 /* OSDAppDelegate.m */; };
+		D6862C4F156588CB00D1ECA6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6862C4D156588CB00D1ECA6 /* MainMenu.xib */; };
+		D6862C57156588CC00D1ECA6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6862C56156588CC00D1ECA6 /* SenTestingKit.framework */; };
+		D6862C58156588CC00D1ECA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6862C38156588CB00D1ECA6 /* Cocoa.framework */; };
+		D6862C60156588CC00D1ECA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6862C5E156588CC00D1ECA6 /* InfoPlist.strings */; };
+		D6862C63156588CC00D1ECA6 /* Mac_Task_SequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6862C62156588CC00D1ECA6 /* Mac_Task_SequenceTests.m */; };
+		D6D0F198156A9D090018F9BD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D0F197156A9D090018F9BD /* CoreFoundation.framework */; };
+		D6D0F19A156A9D100018F9BD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D0F199156A9D100018F9BD /* IOKit.framework */; };
+		D6D18AE2157651BE002BFFCE /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D18AE1157651BE002BFFCE /* Constants.m */; };
+		D6D18AE5157651CA002BFFCE /* DeployStudioHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D18AE4157651CA002BFFCE /* DeployStudioHelper.m */; };
+		D6E224621566F186008AC2F3 /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E224611566F186008AC2F3 /* NumberFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6862C59156588CC00D1ECA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6862C2B156588CA00D1ECA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6862C33156588CB00D1ECA6;
+			remoteInfo = "Mac Task Sequence";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6334137156AA7B5002264CC /* Mosdac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Mosdac.icns; sourceTree = "<group>"; };
+		D636C57815754CC70078B045 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		D636C57915754CC70078B045 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		D6684A491565980A00180B41 /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		D6684A4A1565980A00180B41 /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		D6684A4D1565981700180B41 /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		D6684A4E1565981700180B41 /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		D6684A501565982D00180B41 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		D6684A511565982E00180B41 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		D67D30BC1576720400BC3943 /* GetMacAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMacAddress.h; sourceTree = "<group>"; };
+		D6862C34156588CB00D1ECA6 /* Mosdac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mosdac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6862C38156588CB00D1ECA6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D6862C3B156588CB00D1ECA6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D6862C3C156588CB00D1ECA6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D6862C3D156588CB00D1ECA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6862C40156588CB00D1ECA6 /* Mosdac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mosdac-Info.plist"; sourceTree = "<group>"; };
+		D6862C42156588CB00D1ECA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6862C44156588CB00D1ECA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6862C48156588CB00D1ECA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D6862C4A156588CB00D1ECA6 /* OSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSDAppDelegate.h; sourceTree = "<group>"; };
+		D6862C4B156588CB00D1ECA6 /* OSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSDAppDelegate.m; sourceTree = "<group>"; };
+		D6862C4E156588CB00D1ECA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D6862C55156588CC00D1ECA6 /* MosdacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosdacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6862C56156588CC00D1ECA6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D6862C5D156588CC00D1ECA6 /* MosdacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MosdacTests-Info.plist"; sourceTree = "<group>"; };
+		D6862C5F156588CC00D1ECA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6862C61156588CC00D1ECA6 /* Mac_Task_SequenceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mac_Task_SequenceTests.h; sourceTree = "<group>"; };
+		D6862C62156588CC00D1ECA6 /* Mac_Task_SequenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mac_Task_SequenceTests.m; sourceTree = "<group>"; };
+		D6D0F197156A9D090018F9BD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D6D0F199156A9D100018F9BD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		D6D18AE0157651BE002BFFCE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D6D18AE1157651BE002BFFCE /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		D6D18AE3157651CA002BFFCE /* DeployStudioHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeployStudioHelper.h; sourceTree = "<group>"; };
+		D6D18AE4157651CA002BFFCE /* DeployStudioHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeployStudioHelper.m; sourceTree = "<group>"; };
+		D6DB1F8C17F9D3FC00EFF150 /* Mosdac-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mosdac-Prefix.pch"; sourceTree = "<group>"; };
+		D6E224601566F186008AC2F3 /* NumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFormatter.h; sourceTree = "<group>"; };
+		D6E224611566F186008AC2F3 /* NumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6862C31156588CB00D1ECA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D0F19A156A9D100018F9BD /* IOKit.framework in Frameworks */,
+				D6D0F198156A9D090018F9BD /* CoreFoundation.framework in Frameworks */,
+				D6862C39156588CB00D1ECA6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6862C51156588CC00D1ECA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6862C57156588CC00D1ECA6 /* SenTestingKit.framework in Frameworks */,
+				D6862C58156588CC00D1ECA6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6862C29156588CA00D1ECA6 = {
+			isa = PBXGroup;
+			children = (
+				D6D0F199156A9D100018F9BD /* IOKit.framework */,
+				D6D0F197156A9D090018F9BD /* CoreFoundation.framework */,
+				D6862C3E156588CB00D1ECA6 /* Mac Task Sequence */,
+				D6862C5B156588CC00D1ECA6 /* Mac Task SequenceTests */,
+				D6862C37156588CB00D1ECA6 /* Frameworks */,
+				D6862C35156588CB00D1ECA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6862C35156588CB00D1ECA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6862C34156588CB00D1ECA6 /* Mosdac.app */,
+				D6862C55156588CC00D1ECA6 /* MosdacTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6862C37156588CB00D1ECA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6862C38156588CB00D1ECA6 /* Cocoa.framework */,
+				D6862C56156588CC00D1ECA6 /* SenTestingKit.framework */,
+				D6862C3A156588CB00D1ECA6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6862C3A156588CB00D1ECA6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6862C3B156588CB00D1ECA6 /* AppKit.framework */,
+				D6862C3C156588CB00D1ECA6 /* CoreData.framework */,
+				D6862C3D156588CB00D1ECA6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D6862C3E156588CB00D1ECA6 /* Mac Task Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				D6D18AE0157651BE002BFFCE /* Constants.h */,
+				D6D18AE1157651BE002BFFCE /* Constants.m */,
+				D6D18AE3157651CA002BFFCE /* DeployStudioHelper.h */,
+				D6D18AE4157651CA002BFFCE /* DeployStudioHelper.m */,
+				D636C57815754CC70078B045 /* Base64.h */,
+				D636C57915754CC70078B045 /* Base64.m */,
+				D6684A501565982D00180B41 /* Room.h */,
+				D6684A511565982E00180B41 /* Room.m */,
+				D6862C4A156588CB00D1ECA6 /* OSDAppDelegate.h */,
+				D6862C4B156588CB00D1ECA6 /* OSDAppDelegate.m */,
+				D67D30BC1576720400BC3943 /* GetMacAddress.h */,
+				D6862C4D156588CB00D1ECA6 /* MainMenu.xib */,
+				D6862C3F156588CB00D1ECA6 /* Supporting Files */,
+				D6684A491565980A00180B41 /* Department.h */,
+				D6684A4A1565980A00180B41 /* Department.m */,
+				D6684A4D1565981700180B41 /* Building.h */,
+				D6684A4E1565981700180B41 /* Building.m */,
+				D6E224601566F186008AC2F3 /* NumberFormatter.h */,
+				D6E224611566F186008AC2F3 /* NumberFormatter.m */,
+			);
+			path = "Mac Task Sequence";
+			sourceTree = "<group>";
+		};
+		D6862C3F156588CB00D1ECA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6334137156AA7B5002264CC /* Mosdac.icns */,
+				D6862C40156588CB00D1ECA6 /* Mosdac-Info.plist */,
+				D6DB1F8C17F9D3FC00EFF150 /* Mosdac-Prefix.pch */,
+				D6862C41156588CB00D1ECA6 /* InfoPlist.strings */,
+				D6862C44156588CB00D1ECA6 /* main.m */,
+				D6862C47156588CB00D1ECA6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6862C5B156588CC00D1ECA6 /* Mac Task SequenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6862C61156588CC00D1ECA6 /* Mac_Task_SequenceTests.h */,
+				D6862C62156588CC00D1ECA6 /* Mac_Task_SequenceTests.m */,
+				D6862C5C156588CC00D1ECA6 /* Supporting Files */,
+			);
+			path = "Mac Task SequenceTests";
+			sourceTree = "<group>";
+		};
+		D6862C5C156588CC00D1ECA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6862C5D156588CC00D1ECA6 /* MosdacTests-Info.plist */,
+				D6862C5E156588CC00D1ECA6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6862C33156588CB00D1ECA6 /* Mosdac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6862C66156588CC00D1ECA6 /* Build configuration list for PBXNativeTarget "Mosdac" */;
+			buildPhases = (
+				D6862C30156588CB00D1ECA6 /* Sources */,
+				D6862C31156588CB00D1ECA6 /* Frameworks */,
+				D6862C32156588CB00D1ECA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mosdac;
+			productName = "Mac Task Sequence";
+			productReference = D6862C34156588CB00D1ECA6 /* Mosdac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6862C54156588CC00D1ECA6 /* MosdacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6862C69156588CC00D1ECA6 /* Build configuration list for PBXNativeTarget "MosdacTests" */;
+			buildPhases = (
+				D6862C50156588CC00D1ECA6 /* Sources */,
+				D6862C51156588CC00D1ECA6 /* Frameworks */,
+				D6862C52156588CC00D1ECA6 /* Resources */,
+				D6862C53156588CC00D1ECA6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6862C5A156588CC00D1ECA6 /* PBXTargetDependency */,
+			);
+			name = MosdacTests;
+			productName = "Mac Task SequenceTests";
+			productReference = D6862C55156588CC00D1ECA6 /* MosdacTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6862C2B156588CA00D1ECA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D6862C2E156588CA00D1ECA6 /* Build configuration list for PBXProject "Mosdac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6862C29156588CA00D1ECA6;
+			productRefGroup = D6862C35156588CB00D1ECA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6862C33156588CB00D1ECA6 /* Mosdac */,
+				D6862C54156588CC00D1ECA6 /* MosdacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6862C32156588CB00D1ECA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6862C43156588CB00D1ECA6 /* InfoPlist.strings in Resources */,
+				D6862C49156588CB00D1ECA6 /* Credits.rtf in Resources */,
+				D6862C4F156588CB00D1ECA6 /* MainMenu.xib in Resources */,
+				D6334138156AA7B5002264CC /* Mosdac.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6862C52156588CC00D1ECA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6862C60156588CC00D1ECA6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6862C53156588CC00D1ECA6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6862C30156588CB00D1ECA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6862C45156588CB00D1ECA6 /* main.m in Sources */,
+				D6862C4C156588CB00D1ECA6 /* OSDAppDelegate.m in Sources */,
+				D6684A4B1565980A00180B41 /* Department.m in Sources */,
+				D6684A4F1565981700180B41 /* Building.m in Sources */,
+				D6684A521565982E00180B41 /* Room.m in Sources */,
+				D6E224621566F186008AC2F3 /* NumberFormatter.m in Sources */,
+				D636C57A15754CC70078B045 /* Base64.m in Sources */,
+				D6D18AE2157651BE002BFFCE /* Constants.m in Sources */,
+				D6D18AE5157651CA002BFFCE /* DeployStudioHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6862C50156588CC00D1ECA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6862C63156588CC00D1ECA6 /* Mac_Task_SequenceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6862C5A156588CC00D1ECA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6862C33156588CB00D1ECA6 /* Mosdac */;
+			targetProxy = D6862C59156588CC00D1ECA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6862C41156588CB00D1ECA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6862C42156588CB00D1ECA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6862C47156588CB00D1ECA6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6862C48156588CB00D1ECA6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D6862C4D156588CB00D1ECA6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6862C4E156588CB00D1ECA6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D6862C5E156588CC00D1ECA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6862C5F156588CC00D1ECA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6862C64156588CC00D1ECA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D6862C65156588CC00D1ECA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D6862C67156588CC00D1ECA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Task Sequence/Mosdac-Prefix.pch";
+				INFOPLIST_FILE = "Mac Task Sequence/Mosdac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Mosdac;
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6862C68156588CC00D1ECA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Task Sequence/Mosdac-Prefix.pch";
+				INFOPLIST_FILE = "Mac Task Sequence/Mosdac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Mosdac;
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6862C6A156588CC00D1ECA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mac Task Sequence.app/Contents/MacOS/Mac Task Sequence";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Task Sequence/Mac Task Sequence-Prefix.pch";
+				INFOPLIST_FILE = "Mac Task SequenceTests/MosdacTests-Info.plist";
+				PRODUCT_NAME = MosdacTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D6862C6B156588CC00D1ECA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mac Task Sequence.app/Contents/MacOS/Mac Task Sequence";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Task Sequence/Mac Task Sequence-Prefix.pch";
+				INFOPLIST_FILE = "Mac Task SequenceTests/MosdacTests-Info.plist";
+				PRODUCT_NAME = MosdacTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6862C2E156588CA00D1ECA6 /* Build configuration list for PBXProject "Mosdac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6862C64156588CC00D1ECA6 /* Debug */,
+				D6862C65156588CC00D1ECA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6862C66156588CC00D1ECA6 /* Build configuration list for PBXNativeTarget "Mosdac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6862C67156588CC00D1ECA6 /* Debug */,
+				D6862C68156588CC00D1ECA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6862C69156588CC00D1ECA6 /* Build configuration list for PBXNativeTarget "MosdacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6862C6A156588CC00D1ECA6 /* Debug */,
+				D6862C6B156588CC00D1ECA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6862C2B156588CA00D1ECA6 /* Project object */;
+}
